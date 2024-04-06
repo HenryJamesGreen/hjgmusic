@@ -49,7 +49,7 @@ function About() {
           An experienced professional musician, composer and producer, Henry
           has worked with artists and songwriters including James Woodrow,
           Mike Stock (and related artists), Dylan Holloway, Db Clifford, Lisa
-          Canny, Alex Phillips, Harry Marshall, Joe Slater, and many more.
+          Canny, Harry Marshall, Joe Slater, and many more.
           <br />
           <br />
           Within education, Henry has studied under Paul Westwood and holds a
