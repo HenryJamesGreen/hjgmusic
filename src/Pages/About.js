@@ -52,7 +52,7 @@ function About() {
           Canny, Alex Phillips, Harry Marshall, Joe Slater, and many more.
           <br />
           <br />
-          Within education, Henry has studied under Paul Westwod and holds a
+          Within education, Henry has studied under Paul Westwood and holds a
           Masters in Contemporary Music Performance at the ICMP. Henry saw
           this Masters qualification as a chance to understand and present
           ideas within modern harmony, his final dissertation entitled 'Bebop:
