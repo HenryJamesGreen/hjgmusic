@@ -6,7 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 import BackgroundContainer from "./Components/BackgroundContainer";
-import Footer from "./Components/Footer/index";
+import Footer from "./Components/Footer";
 import Services from "./Pages/Services";
 
 function App() {
