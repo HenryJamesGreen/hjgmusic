@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const SocialIcons = () => {
+const SocialIcons = ({ color }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const handleMouseEnter = (index) => {
@@ -17,7 +17,7 @@ const SocialIcons = () => {
   const iconStyle = {
     fontSize: "24px",
     marginRight: "10px",
-    color: "white",
+    color: color,
     transition: "color 0.3s ease",
   };
 
@@ -29,7 +29,7 @@ const SocialIcons = () => {
          style={{ marginRight: "10px", marginLeft: "15px" }}>
         <FontAwesomeIcon
           icon={faInstagram}
-          style={{ ...iconStyle, color: hoveredIndex === 0 ? "rgba(0, 0, 0, 0.5)" : "black" }}
+          style={{ ...iconStyle, color: hoveredIndex === 0 ? "rgba(0, 0, 0, 0.5)" : color }}
         />
       </a>
       {/* TikTok */}
@@ -38,7 +38,7 @@ const SocialIcons = () => {
          style={{ marginRight: "10px" }}>
         <FontAwesomeIcon
           icon={faTiktok}
-          style={{ ...iconStyle, color: hoveredIndex === 1 ? "rgba(0, 0, 0, 0.5)" : "black" }}
+          style={{ ...iconStyle, color: hoveredIndex === 1 ? "rgba(0, 0, 0, 0.5)" : color }}
         />
       </a>
       {/* YouTube */}
@@ -47,7 +47,7 @@ const SocialIcons = () => {
          style={{ marginRight: "10px" }}>
         <FontAwesomeIcon
           icon={faYoutube}
-          style={{ ...iconStyle, color: hoveredIndex === 2 ? "rgba(0, 0, 0, 0.5)" : "black" }}
+          style={{ ...iconStyle, color: hoveredIndex === 2 ? "rgba(0, 0, 0, 0.5)" : color }}
         />
       </a>
       {/* Facebook */}
@@ -55,7 +55,7 @@ const SocialIcons = () => {
          onMouseEnter={() => handleMouseEnter(3)} onMouseLeave={handleMouseLeave}>
         <FontAwesomeIcon
           icon={faFacebook}
-          style={{ ...iconStyle, color: hoveredIndex === 3 ? "rgba(0, 0, 0, 0.5)" : "black" }}
+          style={{ ...iconStyle, color: hoveredIndex === 3 ? "rgba(0, 0, 0, 0.5)" : color }}
         />
       </a>
     </div>

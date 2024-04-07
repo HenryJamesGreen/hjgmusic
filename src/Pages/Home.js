@@ -129,7 +129,7 @@ return (
             </Button>
           </CardContent>
         </Card>
-        <SocialIcons />
+        <SocialIcons color={"black"} />
       </div>
     </div>
   </ThemeProvider>
