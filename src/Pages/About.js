@@ -12,18 +12,24 @@ function About() {
     minHeight: "100vh", // Ensure full viewport height
     padding: "150px", // Add padding to all sides
     textAlign: "center", // Align the text to the center
+    
   }}
 >
 
       <div
-        style={{
+        sx={{
           maxWidth: "1000px", // Set maximum width
           width: "100%", // Ensure it takes full width on larger screens
           padding: "0 0px", // Add horizontal padding for better spacing
           boxSizing: "border-box", // Include padding and border in the element's total width and height
+          '@media (max-width:800px)': {
+          marginTop: "100px"
+      
+          },
+        
         }}
       >
-        <Typography gutterBottom variant="h3" component="div" sx={{ color: "white" }}>
+        <Typography gutterBottom variant="h3" component="div" sx={{ color: "white" , '@media (max-width: 700px)' : {marginTop: "-100px"}  }}>
           ABOUT HENRY
         </Typography>
         <Typography 
@@ -32,6 +38,11 @@ function About() {
           sx={{ 
             fontSize: "1.2rem", 
             color: "white",
+            '@media (max-width:800px)': {
+              marginLeft: "-80px",
+              marginRight: "-80px"
+          
+              },
           }}
         >
           An experienced professional musician, composer and producer, Henry

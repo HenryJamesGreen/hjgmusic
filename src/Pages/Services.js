@@ -43,6 +43,11 @@ function Services() {
             marginTop: "-100px"
             // Further adjust font size for even smaller screens
           },
+
+          '@media (max-width:700px)': {
+            marginTop: "0px"
+            // Further adjust font size for even smaller screens
+          },
         }}
       >
         SERVICES
