@@ -64,7 +64,7 @@ function ContactForm() {
         alignItems: "center",
         minHeight: "100vh", // Ensure full viewport height
         padding: "20px", // Add padding for better spacing
-        marginTop: "0px", // Ignoring this for now
+        marginTop: "-100px", // Ignoring this for now
         marginBottom: "4px"
       }}
     >
@@ -89,7 +89,7 @@ function ContactForm() {
     justifyContent: "center",
     textAlign: "center",
     bgcolor: "rgba(255, 255, 255, 0.9)",
-    color: "black"
+    color: "black",
   }}
 >
 

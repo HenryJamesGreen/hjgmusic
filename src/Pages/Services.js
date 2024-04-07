@@ -22,8 +22,8 @@ function Services() {
             alignItems: "center",
             backgroundColor: "rgba(0 , 0 , 0 , 0.9)", // Set background color to black
             minHeight: "100vh", // Ensure full viewport height
-            padding: "150px", // Add padding for better spacing
-            marginBottom: "4px"
+            padding: "30px", // Add padding for better spacing
+            marginBottom: "4px",
           }}
         >
          <Typography
