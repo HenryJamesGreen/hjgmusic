@@ -23,7 +23,7 @@ const pages = ["Home", "About", "Contact", "Services"];
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const isMobile = useMediaQuery('(max-width:600px)');
+  const isMobile = useMediaQuery('(max-width:1000px)');
 
   const handleOpenNavMenu = (event) => {
     if (isMobile) {
