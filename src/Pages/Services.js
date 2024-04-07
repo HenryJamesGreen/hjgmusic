@@ -36,10 +36,10 @@ function Services() {
           textAlign: "center",
           // Media queries for adjusting typography for mobile screens
           '@media (max-width:1200px)': {
-            marginTop: "-600px"
+            marginTop: "-300px"
             // Adjust font size for smaller screens
           },
-          '@media (max-width:850px)': {
+          '@media (max-width:1000px)': {
             marginTop: "-100px"
             // Further adjust font size for even smaller screens
           },

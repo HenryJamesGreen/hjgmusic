@@ -31,7 +31,7 @@ function ContactForm() {
     event.preventDefault();
     emailjs
       .send(
-        "service_l2bbxab",
+        "service_4wdeyro",
         "template_n51mrkf",
         formData,
         "fvg_RcErhnk6slDnq"
@@ -62,7 +62,6 @@ function ContactForm() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "rgba(0 , 0 , 0 , 0.9)", // Set background color to black
         minHeight: "100vh", // Ensure full viewport height
         padding: "20px", // Add padding for better spacing
         marginTop: "0px", // Ignoring this for now
@@ -83,18 +82,20 @@ function ContactForm() {
         </Typography>
 
         <Card
-          style={{
-            maxWidth: 450,
-            margin: "0 auto",
-            padding: "20px 5px",
-            justifyContent: "center",
-            textAlign: "center",
-          }}
-        >
+  sx={{
+    maxWidth: 450,
+    margin: "0 auto",
+    padding: "20px 5px",
+    justifyContent: "center",
+    textAlign: "center",
+    bgcolor: "rgba(255, 255, 255, 0.9)",
+    color: "black"
+  }}
+>
+
           <CardContent>
             <Typography
               gutterBotom
-              color="secondary"
               variant="body2"
               component="p"
             >
