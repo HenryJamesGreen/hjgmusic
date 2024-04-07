@@ -10,9 +10,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMusic, faMicrophone, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
 import portraitVideoSource from '../images/henreel2.mov';
 
 function Services() {
@@ -26,10 +23,30 @@ function Services() {
             backgroundColor: "rgba(0 , 0 , 0 , 0.9)", // Set background color to black
             minHeight: "100vh", // Ensure full viewport height
             padding: "150px", // Add padding for better spacing
-            marginTop: "-100px", // Adjusting the top margin to position the text higher
             marginBottom: "4px"
           }}
         >
+         <Typography
+        variant="h3"
+        component="h1"
+        sx={{
+          color: "white",
+          marginBottom: "20px",
+          marginTop: "-330px",
+          textAlign: "center",
+          // Media queries for adjusting typography for mobile screens
+          '@media (max-width:1200px)': {
+            marginTop: "-600px"
+            // Adjust font size for smaller screens
+          },
+          '@media (max-width:850px)': {
+            marginTop: "-100px"
+            // Further adjust font size for even smaller screens
+          },
+        }}
+      >
+        SERVICES
+      </Typography>
           <div
             style={{
               maxWidth: "1000px", // Set maximum width
