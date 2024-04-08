@@ -35,8 +35,8 @@ function Services() {
           marginTop: "-330px",
           textAlign: "center",
           // Media queries for adjusting typography for mobile screens
-          '@media (max-width:1200px)': {
-            marginTop: "-300px"
+          '@media (max-width:2000px)': {
+            marginTop: "-100px"
             // Adjust font size for smaller screens
           },
           '@media (max-width:1000px)': {

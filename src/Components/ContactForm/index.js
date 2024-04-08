@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { useState } from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -64,8 +63,11 @@ function ContactForm() {
         alignItems: "center",
         minHeight: "100vh", // Ensure full viewport height
         padding: "20px", // Add padding for better spacing
-        marginTop: "-100px", // Ignoring this for now
-        marginBottom: "4px"
+        marginTop: "0px", // Ignoring this for now
+        marginBottom: "4px",
+        ...(window.innerWidth <= 800 && {
+          marginTop: "-100px"
+        }),
       }}
     >
       <Box sx={{ flexGrow: 1, m: 1 }}>
@@ -82,23 +84,18 @@ function ContactForm() {
         </Typography>
 
         <Card
-  sx={{
-    maxWidth: 450,
-    margin: "0 auto",
-    padding: "20px 5px",
-    justifyContent: "center",
-    textAlign: "center",
-    bgcolor: "rgba(255, 255, 255, 0.9)",
-    color: "black",
-  }}
->
-
+          sx={{
+            maxWidth: 450,
+            margin: "0 auto",
+            padding: "20px 5px",
+            justifyContent: "center",
+            textAlign: "center",
+            bgcolor: "rgba(255, 255, 255, 0.9)",
+            color: "black",
+          }}
+        >
           <CardContent>
-            <Typography
-              gutterBotom
-              variant="body2"
-              component="p"
-            >
+            <Typography gutterBotom variant="body2" component="p">
               Contact Henry at{" "}
               <a href="mailto:henryjamesgreenmusic@gmail.com">
                 henryjamesgreenmusic@gmail.com

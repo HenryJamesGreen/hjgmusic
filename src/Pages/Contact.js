@@ -13,7 +13,7 @@ function Contact() {
     minHeight: "100vh", // Ensure full viewport height
     padding: "0px", // Add padding to all sides
     textAlign: "center", // Align the text to the center
-    marginBottom: "4px"
+
   }}
 >
       <header className="App-header">
