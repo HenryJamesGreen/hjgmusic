@@ -68,6 +68,9 @@ function ContactForm() {
         ...(window.innerWidth <= 800 && {
           marginTop: "-100px"
         }),
+        ...(window.innerWidth <= 500 && {
+          marginTop: "-50px"
+        }),
       }}
     >
       <Box sx={{ flexGrow: 1, m: 1 }}>
