@@ -125,7 +125,7 @@ return (
               component={Link}
               to="/contact"
             >
-              CONTACT HENRY
+              CONTACT
             </Button>
           </CardContent>
         </Card>
