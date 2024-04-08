@@ -48,7 +48,7 @@ function About() {
           An experienced professional musician, composer and producer, Henry
           has worked with artists and songwriters including James Woodrow,
           Mike Stock (and related artists), The Fizz (formerely Bucks Fizz), Dylan and The Moon, Db Clifford, Lisa
-          Canny, Harry Marshall, Joe Slater, and many more.
+          Canny, Harry Marshall, Joe Slater, and many more. Henry is also deeply involved in the field of library music, often collaborating with other composers on music for film, television and advertising.
           <br />
           <br />
           Within education, Henry has studied under Paul Westwood and holds a
