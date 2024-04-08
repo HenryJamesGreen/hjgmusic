@@ -93,10 +93,10 @@ function Services() {
               <CardContent>
               <FontAwesomeIcon icon={faGraduationCap} style={{ color: "white", fontSize: "3rem", margin: "auto" }} />
                 <Typography variant="h5" component="div" sx={{ color: "white" }}>
-                  Tutoring
+                  Composition
                 </Typography>
                 <Typography variant="body2" color="white">
-                  Lessons available both in person and online, in electric bass, guitar, production, music theory and music harmony.
+                  Services in composition. This often ties in with production and sessions. For a portolio exemplar of personal, library and compositions in collaboration, click here.
                 </Typography>
               </CardContent>
             </Card>

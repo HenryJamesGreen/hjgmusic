@@ -47,7 +47,7 @@ function About() {
         >
           An experienced professional musician, composer and producer, Henry
           has worked with artists and songwriters including James Woodrow,
-          Mike Stock (and related artists), Dylan Holloway, Db Clifford, Lisa
+          Mike Stock (and related artists), The Fizz (formerely Bucks Fizz), Dylan and The Moon, Db Clifford, Lisa
           Canny, Harry Marshall, Joe Slater, and many more.
           <br />
           <br />
