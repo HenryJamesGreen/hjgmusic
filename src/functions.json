@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/images/Trio.png",
+      "title": "Silk & James Party Duo/Trio",
+      "description": "Here",
+      "href": "https://silkandjamespartyduo.com/"
+    },
+    {
+        "id": 2,
+        "imageSrc": "/images/WKTD.png",
+        "title": "We Killed The Disco",
+        "description": "Here",
+        "href": "https://encoremusicians.com/We-Killed-The-Disco?public=true"
+      }
+]
+  

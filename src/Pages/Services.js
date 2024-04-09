@@ -70,7 +70,7 @@ function Services() {
                   Sessions
                 </Typography>
                 <Typography variant="body2" color="white">
-                  Services provided in electric bass, fretless bass, acoustic and electric guitar, vocals and sample drums (for duo 'acoustic' acts). Examples of Henry's studio work can be found  <a href="https://open.spotify.com/playlist/6MRyrt5jmW3wugGusg7vZC?si=b9f00a4eb1ce4afa" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline" }}>here</a>.
+                  Services provided in electric bass, fretless bass, acoustic and electric guitar, vocals and sample drums (for duo/trio 'acoustic' acts).
                 </Typography>
               </CardContent>
             </Card>
@@ -83,7 +83,7 @@ function Services() {
                   Production
                 </Typography>
                 <Typography variant="body2" color="white">
-                  Services in tracking (all instruments mentioned afore mentioned), programming (VSTs for keyboards, drums, samples etc), mixing and mastering. Examples of Henry's work can be found  <a href="https://open.spotify.com/artist/4gAQHpmAcx1vnA8KmuRwNw?si=kOuqUN2CRr2mOrBHCUGuKw" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline" }}>here</a>.
+                  Services in tracking (all instruments mentioned afore mentioned), programming (VSTs for keyboards, drums, samples etc), mixing and mastering.
                 </Typography>
               </CardContent>
             </Card>
@@ -96,12 +96,13 @@ function Services() {
                   Composition
                 </Typography>
                 <Typography variant="body2" color="white">
-                  Services in composition. This often ties in with production and sessions. For a portolio exemplar of personal, library and compositions in collaboration, click here.
+                 This often ties in with production and sessions and tends to center on either collaboration with artists (songwriting), or film, TV and ads libraries.
                 </Typography>
               </CardContent>
             </Card>
             </div>
             </div>
+            <Typography sx={{marginTop: "20px", color: "white"}}><a href="./Portfolio"  rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline" }}>Click here for examples of Henry's work</a>.</Typography>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', width: '50vh' }}>
               <SocialIcons color={"white"} />
               </div>
