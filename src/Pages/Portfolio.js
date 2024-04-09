@@ -175,9 +175,7 @@ function Portfolio() {
                     <br />
                     Click for More Info
                   </Typography>
-                  <Dialog open={openFunctionDialog && selectedFunction === functions.id} onClose={handleCloseFunctionDialog}>
-                    <DialogTitle>{functions.title}</DialogTitle>
-                  </Dialog>
+              
                 </div>
               </Grid>
             ))}
