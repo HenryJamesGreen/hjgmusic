@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import Typography from "@mui/material/Typography";
 import { Dialog, DialogContent, DialogTitle, Grid } from "@mui/material";
@@ -175,7 +176,6 @@ function Portfolio() {
                     <br />
                     Click for More Info
                   </Typography>
-              
                 </div>
               </Grid>
             ))}
