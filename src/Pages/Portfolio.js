@@ -7,16 +7,27 @@ import SocialIcons from "../Components/Socials";
 import FunctionsData from "../functions.json";
 
 function Portfolio() {
-  const [open, setOpen] = React.useState(false);
+  const [openThumbnailDialog, setOpenThumbnailDialog] = React.useState(false);
   const [selectedThumbnail, setSelectedThumbnail] = React.useState(null);
+  const [openFunctionDialog, setOpenFunctionDialog] = React.useState(false);
+  const [selectedFunction, setSelectedFunction] = React.useState(null);
 
-  const handleOpen = (index) => {
+  const handleOpenThumbnailDialog = (index) => {
     setSelectedThumbnail(index);
-    setOpen(true);
+    setOpenThumbnailDialog(true);
   };
 
-  const handleClose = () => {
-    setOpen(false);
+  const handleCloseThumbnailDialog = () => {
+    setOpenThumbnailDialog(false);
+  };
+
+  const handleOpenFunctionDialog = (index) => {
+    setSelectedFunction(index);
+    setOpenFunctionDialog(true);
+  };
+
+  const handleCloseFunctionDialog = () => {
+    setOpenFunctionDialog(false);
   };
 
   const handleThumbnailClick = (url) => {
@@ -69,7 +80,7 @@ function Portfolio() {
                 src={thumbnail.imageSrc}
                 alt={`Thumbnail ${thumbnail.id}`}
                 style={{ width: "100%", height: "auto", cursor: "pointer" }}
-                onClick={() => handleOpen(thumbnail.id)}
+                onClick={() => handleOpenThumbnailDialog(thumbnail.id)}
               />
               <Typography
                 variant="subtitle2"
@@ -85,11 +96,11 @@ function Portfolio() {
                   textAlign: "center",
                   cursor: "pointer",
                 }}
-                onClick={() => handleOpen(thumbnail.id)}
+                onClick={() => handleOpenThumbnailDialog(thumbnail.id)}
               >
                 Click for More Info
               </Typography>
-              <Dialog open={open && selectedThumbnail === thumbnail.id} onClose={handleClose}>
+              <Dialog open={openThumbnailDialog && selectedThumbnail === thumbnail.id} onClose={handleCloseThumbnailDialog}>
                 <DialogTitle>{thumbnail.title}</DialogTitle>
                 <DialogContent>
                   <Typography>{thumbnail.description}</Typography>
@@ -141,7 +152,7 @@ function Portfolio() {
                       src={functions.imageSrc}
                       alt={`Thumbnail ${functions.id}`}
                       style={{ width: "100%", height: "auto", cursor: "pointer" }}
-                      onClick={() => handleThumbnailClick(functions.href)}
+                      onClick={() => handleOpenFunctionDialog(functions.id)}
                     />
                   </a>
                   <Typography
@@ -158,13 +169,13 @@ function Portfolio() {
                       textAlign: "center",
                       cursor: "pointer",
                     }}
-                    onClick={() => handleThumbnailClick(functions.href)}
+                    onClick={() => handleOpenFunctionDialog(functions.id)}
                   >
                     {functions.title}
                     <br />
                     Click for More Info
                   </Typography>
-                  <Dialog open={open && selectedThumbnail === functions.id} onClose={handleClose}>
+                  <Dialog open={openFunctionDialog && selectedFunction === functions.id} onClose={handleCloseFunctionDialog}>
                     <DialogTitle>{functions.title}</DialogTitle>
                   </Dialog>
                 </div>
