@@ -33,7 +33,11 @@ function Portfolio() {
         textAlign: "center",
       }}
     >
-      <Typography gutterBottom variant="h3" component="div" sx={{ color: "white", marginTop: "100px" }}>
+      <Typography gutterBottom variant="h3" component="div" sx={{ color: "white", marginTop: "100px", '@media (max-width:600px)': {
+          marginTop: "0px"
+      
+          },
+         }}>
         PORTFOLIO
       </Typography>
 
