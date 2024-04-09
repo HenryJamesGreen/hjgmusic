@@ -18,7 +18,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
-const pages = ["Home", "About", "Services", "Contact"];
+const pages = ["Home", "About", "Services", "Portfolio", "Contact"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

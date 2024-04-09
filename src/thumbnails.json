@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/images/Minimal.jpeg",
+      "title": "Minimalistic Tension",
+      "description": "Minimalistic tension cues ideal for Crime, Drama, Trailers and Documentaries.",
+      "composers": "Green/Southwell"
+    },
+    {
+      "id": 2,
+      "imageSrc": "/images/RockRiffs.jpeg",
+      "title": "Rock Riffs",
+      "description": "A collection of rock riffs perfect for sports and action scenes.",
+      "composers": "Green/Southwell"
+    },
+    {
+        "id": 3,
+        "imageSrc": "/images/GoodVibes.jpeg",
+        "title": "Good Vibes",
+        "description": "A collection of upbeat, uplifting and motivational music perfect for Cooking, Sports, Daytime TV and DIY shows.",
+        "composers": "Green/Southwell"
+      },
+      {
+          "id": 4,
+          "imageSrc": "/images/DarkAmb.jpeg",
+          "title": "Dark Ambient Emotions",
+          "description": "A colection of dark ambient tracks perfect for crime drama, horror movies and video games.",
+          "composers": "Green/Southwell"
+        },
+        {
+            "id": 5,
+            "imageSrc": "/images/FunkMachine.jpeg",
+            "title": "Funk Machine",
+            "description": "A selection of fun funk tracks ranging from upbeat, energetic and lively to calm, chilled and sophisticated. Also containing elements of pop, rock, fusion and Jazz.",
+            "composers": "Green/Southwell"
+          }
+  ]
+  

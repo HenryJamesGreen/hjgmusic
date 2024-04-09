@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import BackgroundContainer from "./Components/BackgroundContainer";
 import Footer from "./Components/Footer";
 import Services from "./Pages/Services";
+import Portfolio from "./Pages/Portfolio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />}/>
             <Route path="/services" element={<Services/>}/>
+            <Route path="Portfolio" element={<Portfolio/>}/>
           </Routes>
           <Footer/>
         </BackgroundContainer>
